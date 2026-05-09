@@ -1,0 +1,12 @@
+{
+  "name": "ethara-task-manager",
+  "version": "1.0.0",
+  "description": "Full Stack Task Manager for Ethara Assignment",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "dev": "npm run start"
+  },
+  "author": "Anura",
+  "license": "ISC"
+}
